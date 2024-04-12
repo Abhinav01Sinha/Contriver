@@ -8,7 +8,7 @@ function MilestonesPage() {
   return (
     <>
       {/* MILESTONES */}
-      <div className="w-full flex flex-col pb-20 bg-blue-400">
+      <div className="w-full flex flex-col pb-20 bg-blue-300">
         <h1 className="sm:text-8xl text-5xl font-bold text-white text-center my-10">
           MILESTONES
         </h1>

@@ -15,7 +15,7 @@ function BusnessModelPage() {
   return (
     <div className="bg-blue-400 ">
       {/* How will we make? */}
-      <div className="sm:py-10 sm:px-20 p-10 flex.flex-col">
+      <div className="sm:py-10 sm:px-20 px-6 sm:py-10 py-5 flex flex-col">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center">
           <h1 className="sm:text-7xl text-4xl text-white text-center font-bold capitalize mb-6">
@@ -26,35 +26,35 @@ function BusnessModelPage() {
             appropriate and keeps the entire system exclusive (larger moat).
           </p>
           <p className="sm:text-xl text-white font-semibold">
-            We then work with business models as below:
+            We then work with business models as below :
           </p>
         </div>
 
         {/* Methods */}
-        <div className="flex sm:flex-row flex-col sm:space-x-5 ">
+        <div className="flex sm:flex-row flex-col sm:space-x-5 sm:px-0">
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
-            <div className="flex flex-col space-y-5 sm:pb-0 pb-5 ">
+            <div className="flex flex-col space-y-5 sm:pb-0  ">
               <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber1 />
                 {/* heading */}
                 <p>Network by Sales</p>
               </div>
-              <p className="sm:text-xl font-semibold text-center ">
+              <p className="sm:text-xl font-semibold text-center px-3 pb-3">
                 Sales of the UAV as a product based in requirements with a
                 service model.
               </p>
             </div>
           </div>
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
-            <div className="flex flex-col space-y-5 pb-5">
-              <div className="bg-black text-white font-semibold py-4  flex flex-row justify-center items-center text-3xl space-x-5">
+            <div className="flex flex-col space-y-5 sm:pb-0  ">
+              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber2 />
                 {/* heading */}
                 <p className="font-semibold">Network Subscriptions</p>
               </div>
-              <p className="sm:text-xl font-semibold text-center px-6">
+              <p className="sm:text-xl font-semibold text-center px-6 pb-3">
                 Whereas the business is entirely a separate channel we look
                 forward to license our IPRs on based on subscriptions defined
                 case to case basis.
@@ -62,14 +62,14 @@ function BusnessModelPage() {
             </div>
           </div>
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
-            <div className="flex flex-col space-y-5 pb-5">
+            <div className="flex flex-col space-y-5 sm:pb-0 ">
               <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber3 />
                 {/* heading */}
                 <p className="font-semibold">Network by Exclusion</p>
               </div>
-              <p className="sm:text-xl font-semibold text-center px-6">
+              <p className="sm:text-xl font-semibold text-center px-6 pb-3">
                 Whereas the channel that is established is already operational
                 in market, is unique, we sell the IPRs with returns as cash
                 payments and equity.

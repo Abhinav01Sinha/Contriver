@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { Separator } from "@/components/ui/separator";
 
 function ContactUsPage() {
   const thisForm = useRef();
@@ -29,51 +30,54 @@ function ContactUsPage() {
   };
 
   return (
-    <div className="bg-blue-400 px-5 sm:px-10 flex sm:flex-row flex-col justify-center items-center gap-x-20 ">
+    <div className="bg-blue-400 px-5 sm:px-10 py-0 sm:py-5 flex sm:flex-row flex-col justify-center items-center gap-x-20 ">
       {/* CONATACT US */}
       <div className="flex flex-col sm:mx-10 sm:w-1/3 space-y-5 my-5">
-        <h1 className="text-white sm:text-7xl text-3xl text-center font-bold text-center my-2">
+        <h1 className="text-white sm:text-7xl text-4xl text-center font-bold text-center my-2">
           CONTACT US
         </h1>
 
-        <div className="bg-white flex flex-row sm:px-20 rounded-3xl border-4 border-black border-solid ">
-          <div className="flex flex-col py-3 justify-center items-center w-1/4 m-auto sm:mx-0">
+        <div className="bg-white flex flex-row sm:px-15 rounded-3xl border-4 border-black border-solid ">
+          <div className="flex flex-col py-3 justify-end sm:justify-center items-center w-1/4 m-auto sm:mx-0">
             <LocationOnIcon style={{ fontSize: "3rem" }} />
-            <p className="text-black font-bold text-xl ">ADDRESS</p>
+            <p className="text-black font-bold sm:text-xl text-md">ADDRESS</p>
           </div>
 
-          <p className="text-md text-start font-bold px-10 m-auto w-3/4">
-            Headquarters Phase 1, Ashok Vihar, Delhi 110052, IN
+          <p className="text-md font-semibold px-5 m-auto w-3/4">
+            I - 188 , Phase 1 , Ashok Vihar, Delhi , IN
           </p>
         </div>
 
-        <div className="bg-white flex flex-row sm:px-20 rounded-3xl border-4 border-black border-solid">
-          <div className="flex flex-col py-3 justify-center items-center w-1/4 m-auto sm:mx-0">
+        <div className="bg-white flex flex-row sm:px-15 rounded-3xl border-4 border-black border-solid">
+          <div className="flex flex-col py-3 justify-end sm:justify-center items-center w-1/4 m-auto sm:mx-0">
             <MailIcon style={{ fontSize: "3rem" }} />
-            <p className="text-black font-bold text-xl">E-Mail</p>
+            <p className="text-black font-bold sm:text-xl text-md">E-Mail</p>
           </div>
 
-          <p className="text-md text-start font-bold px-10 m-auto w-3/4">
-            utkarshessence.ahuja@gmail.com
+          <p className="text-md font-semibold sm:px-5 px-0 m-auto w-3/4">
+            contrivewith@thedronecontriver.co.in
           </p>
         </div>
 
-        <div className="bg-white flex flex-row sm:px-20 rounded-3xl border-4 border-black border-solid">
-          <div className="flex flex-col py-3 justify-center items-center w-1/4 m-auto sm:mx-0">
+        <div className="bg-white flex flex-row sm:px-15 rounded-3xl border-4 border-black border-solid">
+          <div className="flex flex-col py-3 justify-end sm:justify-center items-center w-1/4 m-auto sm:mx-0">
             <LocalPhoneIcon style={{ fontSize: "3rem" }} />
             <p className="text-black font-bold text-md">PHONE</p>
             <p className="text-black font-bold text-md">NUMBER</p>
           </div>
 
           <div className="flex flex-col py-3 justify-center items-start space-y-2 w-3/4">
-            <p className="text-md font-bold px-10 ">Utkarsh Ahuja :</p>
-            <p className="text-md font-bold px-10 ">+91 9958312168</p>
+            <p className="text-md font-semibold px-5 ">
+              Utkarsh Ahuja : +91 9958312168
+            </p>
           </div>
         </div>
       </div>
 
+      <div class="hidden sm:inline-block h-auto my-8 w-0.5 self-stretch bg-white"></div>
+
       {/* Send E-Mail */}
-      <div className=" bg-black flex flex-col px-2 pb-2 sm:mx-10 my-5 sm:w-1/3">
+      <div className=" bg-black flex flex-col px-3 pb-3 sm:mx-10 sm:my-5 my-10 sm:w-1/3">
         <h1 className=" text-white sm:text-6xl text-2xl text-center font-bold text-center mt-4 mb-2">
           DROP A MAIL!
         </h1>

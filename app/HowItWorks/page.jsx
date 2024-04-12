@@ -11,7 +11,6 @@ import {
   Looks4Outlined,
   Looks4Sharp,
   Looks5Outlined,
-  Looks5Sharp,
   Looks6Outlined,
   LooksOneOutlined,
   LooksTwoOutlined,
@@ -241,7 +240,7 @@ function HowItWorksPage() {
       {/* How much we require and for What? */}
       <div className="bg-blue-400">
         <div className="flex py-10 sm:py-20 sm:px-10 flex-col space-y-10 justify-center items-center">
-          <h1 className="sm:text-6xl text-2xl text-white font-bold capitalize">
+          <h1 className="sm:text-6xl text-xl text-white font-bold capitalize">
             How much we require and for what ?
           </h1>
           <div className="flex flex-col sm:flex-row px-20">
