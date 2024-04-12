@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="w-full bg-indigo-400 flex flex-col sm:flex-row ">
+    <div className="w-full bg-blue-400 flex flex-col sm:flex-row ">
       <div className="p-0 grid-cols-3">
         <Link href={"/"}>
           <Image src={"/Drone.png"} alt="drone" width={526.5} height={150} />

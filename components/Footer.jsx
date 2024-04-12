@@ -59,14 +59,16 @@ function Footer() {
 
       {/* Location */}
       <div className="my-10 text-left lg:mx-20">
-        <h1 className="text-3xl text-white mb-4">FIND US AT:</h1>
-        <div className="py-2">
+        <h1 className="text-center sm:text-left text-3xl text-white mb-4">
+          FIND US AT:
+        </h1>
+        <div className="py-2 flex justify-center items-center">
           <iframe
-            className=""
+            className="w-5/6 sm:w-full "
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.63539058727616!2d77.11451204732097!3d28.74968022331842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01ca3b4e3f85%3A0xd03e90b6833fac09!2sA4%20Block%2C%20Dept.%20of%20Computer%20Science%20%26%20Software%20Engg.!5e0!3m2!1sen!2sin!4v1712438736581!5m2!1sen!2sin"
-            width="350"
+            width="400"
             height="200"
-            loading="lazy"
+            loading="eager"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
