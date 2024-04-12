@@ -2,7 +2,7 @@ import AIC from "/public/clients/AIC.png";
 import BAE from "/public/clients/BAE.png";
 import GermanX from "/public/clients/GermanX.png";
 import GRSE from "/public/clients/GRSE.png";
-import Instapower from "/public/clients/Instapower.png";
+import Instapower from "/public/clients/InstaPower.png";
 import ACIC from "/public/clients/ACIC.jpeg";
 
 export const about = [
