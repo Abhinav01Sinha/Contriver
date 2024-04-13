@@ -25,7 +25,7 @@ function HowItWorksPage() {
       {/* How it Works */}
       <div className="bg-blue-400">
         <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
-          <div className="flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center">
+          <div className="flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <p className="sm:text-7xl text-6xl font-bold text-white my-2">
               HOW IT{" "}
             </p>
@@ -33,8 +33,7 @@ function HowItWorksPage() {
               WORKS ?
             </p>
           </div>
-
-          <Timeline className="flex sm:w-2/3" position="alternate-reverse">
+          <Timeline className="flex sm:w-2/3 " position="alternate-reverse">
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot className="bg-white border-2 border-black border-solid">
@@ -42,7 +41,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent className="animate-slide-up ">
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We first find mundane problems that are affecting large group
                   of people in businesses and in usual scenarios.
@@ -56,7 +55,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then go for a literature review and find business potential
                   in the problem and value that can be added if the problem is
@@ -71,7 +70,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then work out for solutions that are thematically
                   autonomous and require least human interference as most
@@ -86,7 +85,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then look for potential channels by which the business can
                   be established.
@@ -100,7 +99,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then contact and connect those businesses and share our
                   ideas to them while giving the idea of potential value that
@@ -114,7 +113,7 @@ function HowItWorksPage() {
                   <Looks6Outlined className="text-black" />
                 </TimelineDot>
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
                   Once the channel is set we then develop a system and deliver
                   to the first business/person.
@@ -146,7 +145,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent className="animate-slide-up ">
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   With the tactical skills that we have developed first problem
                   seeking is done by research team.
@@ -160,7 +159,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Once the problem is decided, a team sees and does a literature
                   review and possibilities of value addition.
@@ -174,7 +173,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Director’s Office sees the prospect spaces where thematically
                   the company can help and benefit. This also includes addition
@@ -189,7 +188,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2  sm:text-lg">
                   An outsourced or internal team is hired for business
                   development with ppts to reach out to potential businesses OR
@@ -204,7 +203,7 @@ function HowItWorksPage() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   A software team looks into development.
                 </div>
@@ -216,7 +215,7 @@ function HowItWorksPage() {
                   <Looks6Outlined className="text-black" />
                 </TimelineDot>
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Finally the Director’s Office oversees the process and
                   delivers the project.

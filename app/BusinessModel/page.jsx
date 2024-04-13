@@ -17,7 +17,7 @@ function BusnessModelPage() {
       {/* How will we make? */}
       <div className="sm:py-10 sm:px-20 px-6 sm:py-10 py-5 flex flex-col">
         {/* Headline */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
           <h1 className="sm:text-7xl text-4xl text-white text-center font-bold capitalize mb-6">
             How will we make ?
           </h1>
@@ -32,7 +32,10 @@ function BusnessModelPage() {
 
         {/* Methods */}
         <div className="flex sm:flex-row flex-col sm:space-x-5 sm:px-0">
-          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
+          <div
+            data-taos-offset="300"
+            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
+          >
             <div className="flex flex-col space-y-5 sm:pb-0  ">
               <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}
@@ -46,7 +49,10 @@ function BusnessModelPage() {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
+          <div
+            data-taos-offset="300"
+            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
+          >
             <div className="flex flex-col space-y-5 sm:pb-0  ">
               <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}
@@ -61,7 +67,10 @@ function BusnessModelPage() {
               </p>
             </div>
           </div>
-          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5">
+          <div
+            data-taos-offset="300"
+            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
+          >
             <div className="flex flex-col space-y-5 sm:pb-0 ">
               <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
                 {/* icon */}

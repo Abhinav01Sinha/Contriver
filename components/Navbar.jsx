@@ -15,10 +15,7 @@ function Navbar() {
     <div className="w-full bg-white flex border-2 border-gray-700 border-solid px-0">
       {/* PC View */}
       <div className="hidden sm:flex flex-row w-full text-gray-700 font-bold justify-center ">
-        <Link
-          className="hidden sm:inline-block w-1/6 py-3 hover:bg-indigo-200 sm:mx-auto "
-          href={"/"}
-        >
+        <Link className="w-1/6 py-3 hover:bg-indigo-200 sm:mx-auto " href={"/"}>
           <div className="text-center  ">Home</div>
         </Link>
         <Link
@@ -68,28 +65,40 @@ function Navbar() {
           </DropdownMenuTrigger>
 
           <DropdownMenuContent>
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href={"/"}>Home</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href={"/"} className="px-10">
+                Home
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href="/AboutUs">About Us</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href="/AboutUs" className="px-10">
+                About Us
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href={"/HowItWorks"}>How It Works</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href={"/HowItWorks"} className="px-10">
+                How It Works
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href={"/Milestones"}>Milestones</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href={"/Milestones"} className="px-10">
+                Milestones
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href={"/BusinessModel"}>Business Model</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href={"/BusinessModel"} className="px-10">
+                Business Model
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="shadow px-10 text-md">
-              <Link href={"/ContactUs"}>Contact Us</Link>
+            <DropdownMenuItem className="shadow text-md">
+              <Link href={"/ContactUs"} className="px-10">
+                Contact Us
+              </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

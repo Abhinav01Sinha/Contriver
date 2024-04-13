@@ -8,16 +8,16 @@ function MilestonesPage() {
   return (
     <>
       {/* MILESTONES */}
-      <div className="w-full flex flex-col pb-20 bg-blue-300">
-        <h1 className="sm:text-8xl text-5xl font-bold text-white text-center my-10">
+      <div className="w-full flex flex-col bg-blue-300">
+        <h1 className="sm:text-8xl text-5xl font-bold text-white text-center my-10 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
           MILESTONES
         </h1>
         <div className="flex flex-col justify-center items-center">
-          <Image src={"/M1.png"} width={1300} height={1300} alt="milestone" />
-          <Image src={"/M2.png"} width={1300} height={1300} alt="milestone" />
-          <Image src={"/M3.png"} width={1300} height={1300} alt="milestone" />
-          <Image src={"/M4.png"} width={1300} height={1300} alt="milestone" />
-          <Image src={"/M5.png"} width={1300} height={1300} alt="milestone" />
+          <Image src={"/M1.png"} width={1605} height={1605} alt="milestone" />
+          <Image src={"/M2.png"} width={1605} height={1605} alt="milestone" />
+          <Image src={"/M3.png"} width={1605} height={1605} alt="milestone" />
+          <Image src={"/M4.png"} width={1605} height={1605} alt="milestone" />
+          <Image src={"/M5.png"} width={1605} height={1605} alt="milestone" />
         </div>
       </div>
 
