@@ -26,8 +26,8 @@ function AboutUsPage() {
       {/* PC View */}
       <div className="hidden sm:flex flex-col sm:w-3/4 mx-auto px-20 space-y-10 pb-10 ">
         {about.map((item, ind) => (
-          <div key={ind} class="relative py-5 bg-white">
-            <div class="flex flex-row space-x-5 z-10 py-4 px-10">
+          <div key={ind} className="relative py-5 bg-white">
+            <div className="flex flex-row space-x-5 z-10 py-4 px-10">
               {/* Description */}
               <p className="sm:w-7/12 text-lg font-medium sm:ml-10 animate-fade-up animate-once animate-duration-800 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
                 {item.title}
@@ -73,7 +73,7 @@ function AboutUsPage() {
             />
 
             <div
-              class={`inline-block w-0.4  bg-${
+              className={`inline-block w-0.4  bg-${
                 ind % 2 === 0 ? "blue-400" : "white"
               } `}
             ></div>

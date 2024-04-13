@@ -3,6 +3,7 @@ import Image from "next/image";
 import LooksOneSharpIcon from "@mui/icons-material/LooksOneSharp";
 import LooksTwoSharpIcon from "@mui/icons-material/LooksTwoSharp";
 import { Looks3Sharp, Looks4Sharp } from "@mui/icons-material";
+import { Separator } from "@/components/ui/separator";
 
 function MilestonesPage() {
   return (
@@ -28,43 +29,55 @@ function MilestonesPage() {
             Milestones based implementations?
           </h1>
 
-          <div className="flex flex-col sm:flex-row sm:px-20 text-lg space-x-2">
-            <div className="flex flex-row sm:w-1/3 space-x-4 bg-white py-4 px-2">
+          <div className="flex flex-col sm:flex-row sm:px-20 text-lg space-x-8">
+            <div className="flex flex-row sm:ml-0 ml-8 sm:w-1/3 space-x-4 bg-white py-4 px-0">
               <LooksOneSharpIcon
                 style={{ fontSize: "4rem" }}
                 className="my-auto"
               />
-              <div className="flex flex-col space-y-1 my-auto">
-                <p>
+              <div className="flex flex-col space-y-1 ">
+                <p className="h-4/6 sm:h-1/2">
                   First Quarter, starts from the day the first operational and
-                  manpower cost is given for first phase:
+                  manpower cost is given.
                 </p>
-                <p>Project need, scope, cost and valuation.</p>
+                <Separator className="h-0.5 mr-0 bg-black" />
+                <p className="h-2/6 sm:h-1/2">
+                  Project need, scope, cost and valuation.
+                </p>
               </div>
             </div>
-            <div className="flex flex-row sm:w-2/9 space-x-4 bg-white py-4 px-2">
+            <div className="flex flex-row sm:w-1/5 space-x-4 bg-white py-4 px-0">
               <LooksTwoSharpIcon
                 style={{ fontSize: "4rem" }}
                 className="my-auto"
               />
-              <div className="flex flex-col space-y-1 my-auto">
-                <p>Second Quarter based on Go/No go</p>
-                <p>Development and POC</p>
+              <div className="flex flex-col space-y-1  ">
+                <p className="sm:h-1/2">Second Quarter based on Go/No go</p>
+                <Separator className="h-0.5 mr-0 bg-black" />
+                <p className="sm:h-1/2">Development and POC</p>
               </div>
             </div>
-            <div className="flex flex-row sm:w-2/9 space-x-4 bg-white py-4 px-2">
+            <div className="flex flex-row sm:w-1/5 space-x-4 bg-white py-4 px-0">
               <Looks3Sharp style={{ fontSize: "4rem" }} className="my-auto" />
 
-              <div className="flex flex-col space-y-1 my-auto">
-                <p>The Third Quarter based on Go/No go</p>
-                <p>Prototype and Industry or Market Validation</p>
+              <div className="flex flex-col space-y-1 ">
+                <p className="sm:h-1/2">The Third Quarter based on Go/No go</p>
+                <Separator className="h-0.5 mr-0 bg-black" />
+                <p className="sm:h-1/2">
+                  Prototype and Industry or Market Validation
+                </p>
               </div>
             </div>
-            <div className="flex flex-row sm:w-2/9 space-x-4 bg-white py-4 px-2">
+            <div className="flex flex-row sm:w-1/4 space-x-4 bg-white py-4 px-0">
               <Looks4Sharp style={{ fontSize: "4rem" }} className="my-auto" />
-              <div className="flex flex-col space-y-1 my-auto">
-                <p>Fourth Quarter based on Go/No go</p>
-                <p>Delivery and improvements on feedback</p>
+              <div className="flex flex-col space-y-1">
+                <p className="sm:h-1/2">
+                  Fourth Quarter based <br /> on Go/No go
+                </p>
+                <Separator className="h-0.5 mr-0 bg-black" />
+                <p className="sm:h-1/2">
+                  Delivery and improvements on feedback
+                </p>
               </div>
             </div>
           </div>

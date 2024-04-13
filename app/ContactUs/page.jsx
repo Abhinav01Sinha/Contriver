@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
-import { Separator } from "@/components/ui/separator";
 
 function ContactUsPage() {
   const thisForm = useRef();
@@ -54,7 +53,7 @@ function ContactUsPage() {
             <p className="text-black font-bold sm:text-xl text-md">E-Mail</p>
           </div>
 
-          <p className="text-md font-semibold sm:px-5 px-0 m-auto w-3/4">
+          <p className="sm:text-md text-sm sm:font-semibold sm:px-5 px-0 m-auto w-3/4">
             contrivewith@thedronecontriver.co.in
           </p>
         </div>
@@ -74,7 +73,7 @@ function ContactUsPage() {
         </div>
       </div>
 
-      <div class="hidden sm:inline-block h-auto my-8 w-0.5 self-stretch bg-white"></div>
+      <div className="hidden sm:inline-block h-auto my-8 w-0.5 self-stretch bg-white"></div>
 
       {/* Send E-Mail */}
       <div className=" bg-black flex flex-col px-3 pb-3 sm:mx-10 sm:my-5 my-10 sm:w-1/3 animate-fade-left animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="w-full bg-black flex flex-col sm:flex-row pb-5 sm:px-0 px-10">
       {/* Info */}
-      <div className="text-white text-bold text-md my-auto sm:w-1/3 px-10 sm:mx-auto">
+      <div className="text-white text-bold text-md my-auto sm:w-1/3 sm:px-10 sm:mx-auto">
         <p className="my-4 text-lg">
           &copy;2024 Contriver Autonomous Systems Private Limited
         </p>
@@ -58,7 +58,7 @@ function Footer() {
       </div>
 
       {/* Location */}
-      <div className="my-10 text-left sm:w-1/3 px-10 sm:mx-auto">
+      <div className="my-10 text-left sm:w-1/3 sm:px-10 sm:mx-auto">
         <h1 className="text-center sm:text-left text-3xl text-white mb-4">
           FIND US AT:
         </h1>
@@ -75,20 +75,23 @@ function Footer() {
       </div>
 
       {/* Navigation */}
-      <div className="flex flex-col text-white my-auto justify-center items-center sm:w-1/3 px-10 sm:mx-auto">
-        <div className="text-lg text-semibold hover:text-indigo-200">
+      <div className="flex flex-col text-white my-auto justify-center items-center sm:w-1/3 sm:px-10 sm:mx-auto">
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
+          <Link href={"/"}>Home</Link>
+        </div>
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
           <Link href={"/AboutUs"}>About Us</Link>
         </div>
-        <div className="text-lg text-semibold hover:text-indigo-200">
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
           <Link href={"/HowItWorks"}>How It Works</Link>
         </div>
-        <div className="text-lg text-semibold hover:text-indigo-200">
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
           <Link href={"/Milestones"}>Milestones</Link>
         </div>
-        <div className="text-lg text-semibold hover:text-indigo-200">
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
           <Link href={"/BusinessModel"}>Business Model</Link>
         </div>
-        <div className="text-lg text-semibold hover:text-indigo-200">
+        <div className="text-lg text-semibold my-auto hover:text-indigo-200">
           <Link href={"/ContactUs"}>Contact Us</Link>
         </div>
       </div>
