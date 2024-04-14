@@ -18,18 +18,49 @@ import {
 import LooksOneSharpIcon from "@mui/icons-material/LooksOneSharp";
 import LooksTwoSharpIcon from "@mui/icons-material/LooksTwoSharp";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Link from "next/link";
 
 function HowItWorksPage() {
   return (
     <>
+      {/* Go-To Bar */}
+      <div className="hidden sm:flex flex-row bg-blue-400 justify-center items-center pt-8">
+        <p className="px-5 py-2 text-lg text-white font-bold">NAVIAGATE TO :</p>
+
+        <Link
+          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
+          href={"#how-it-works"}
+        >
+          How It Works ?
+        </Link>
+        <Link
+          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
+          href={"#who-does-it"}
+        >
+          Who Does It ?
+        </Link>
+        <Link
+          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
+          href={"#how-much-we-require"}
+        >
+          How Much We Require ?
+        </Link>
+        <Link
+          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
+          href={"#scale-up-process"}
+        >
+          Scale Up Process ?
+        </Link>
+      </div>
+
       {/* How it Works */}
-      <div className="bg-blue-400">
+      <div id="how-it-works" className="bg-blue-400">
         <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
           <div className="flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               HOW IT{" "}
             </p>
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               WORKS ?
             </p>
           </div>
@@ -125,14 +156,14 @@ function HowItWorksPage() {
       </div>
 
       {/* Who Does It Section */}
-      <div className="bg-black">
+      <div id="who-does-it" className="bg-black">
         <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
           {/* Mobile view */}
           <div className="sm:hidden inline-block flex flex-col text-center mb-2 justify-center items-center">
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               DOES IT ?
             </p>
           </div>
@@ -226,10 +257,10 @@ function HowItWorksPage() {
 
           {/* PC view */}
           <div className="sm:flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center hidden">
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-6xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
               DOES IT?
             </p>
           </div>
@@ -237,7 +268,7 @@ function HowItWorksPage() {
       </div>
 
       {/* How much we require and for What? */}
-      <div className="bg-blue-400">
+      <div id="how-much-we-require" className="bg-blue-400">
         <div className="flex py-10 sm:py-20 sm:px-10 flex-col space-y-10 justify-center items-center">
           <h1 className="sm:text-6xl text-xl text-white font-bold capitalize">
             How much we require and for what ?
@@ -366,7 +397,7 @@ function HowItWorksPage() {
       </div>
 
       {/* Is there a scale up process and something more? */}
-      <div className="bg-white">
+      <div id="scale-up-process" className="bg-white">
         <div className="flex py-10 sm:py-20 sm:px-2 flex-col space-y-10 justify-center items-center">
           <h1 className="sm:text-5xl text-center text-2xl text-blue-400 font-bold capitalize">
             Is there a scale up process and something more ?

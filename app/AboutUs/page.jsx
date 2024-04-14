@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { Roboto, Poppins } from "next/font/google";
 import { about } from "@/data/constants";
 import { Separator } from "@/components/ui/separator";
@@ -16,10 +18,10 @@ const poppins = Poppins({
 function AboutUsPage() {
   return (
     <div className={`${roboto.className} w-full bg-blue-400 `}>
-      <h1 className="text-3xl sm:text-7xl font-bold text-white text-center sm:py-10 py-5 px-8 lg:px-40 uppercase animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+      <h1 className="text-2xl sm:text-7xl font-bold text-white text-center sm:py-10 py-5 px-8 lg:px-40 uppercase animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
         What Have We Done?
       </h1>
-      <h2 className="text-white font-bold text-xl sm:text-3xl text-center sm:pb-10 pb-5 px-8 lg:px-40 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+      <h2 className="text-white font-bold text-lg sm:text-3xl text-center sm:pb-10 pb-5 px-8 lg:px-40 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
         We have built autonomous :
       </h2>
 

@@ -18,12 +18,12 @@ function BusnessModelPage() {
       <div className="sm:py-10 sm:px-20 px-6 sm:py-10 py-5 flex flex-col">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-          <h1 className="sm:text-7xl text-4xl text-white text-center font-bold capitalize mb-6">
+          <h1 className="sm:text-7xl sm:text-3xl text-2xl text-white text-center font-bold capitalize mb-6">
             How will we make ?
           </h1>
           <p className="sm:text-xl text-white font-semibold mb-2">
-            We always look forward to developing intellectual properties as
-            appropriate and keeps the entire system exclusive (larger moat).
+            &rarr; We always look forward to developing intellectual properties
+            as appropriate and keeps the entire system exclusive (larger moat).
           </p>
           <p className="sm:text-xl text-white font-semibold">
             We then work with business models as below :
@@ -32,12 +32,9 @@ function BusnessModelPage() {
 
         {/* Methods */}
         <div className="flex sm:flex-row flex-col sm:space-x-5 sm:px-0">
-          <div
-            data-taos-offset="300"
-            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
-          >
+          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0  ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
+              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber1 />
                 {/* heading */}
@@ -49,12 +46,9 @@ function BusnessModelPage() {
               </p>
             </div>
           </div>
-          <div
-            data-taos-offset="300"
-            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
-          >
+          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0  ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
+              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber2 />
                 {/* heading */}
@@ -67,12 +61,9 @@ function BusnessModelPage() {
               </p>
             </div>
           </div>
-          <div
-            data-taos-offset="300"
-            className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards"
-          >
+          <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0 ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center text-3xl space-x-5">
+              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber3 />
                 {/* heading */}
@@ -95,7 +86,7 @@ function BusnessModelPage() {
           <p className="text-center text-blue-400 font-bold sm:text-4xl text-xl my-5">
             First Market opportunity - UAV Product
           </p>
-          <div className="flex flex-col space-y-5 px-10 font-semibold ">
+          <div className="flex flex-col space-y-5 px-8 font-semibold ">
             <div className="flex flex-row space-x-4 ">
               <TbCircleLetterA
                 className="flex justify-center items-center w-1/12"
@@ -180,7 +171,7 @@ function BusnessModelPage() {
           <p className="text-center text-blue-400 font-bold sm:text-4xl text-2xl my-5">
             Second Market Opportunity
           </p>
-          <div className="flex flex-col space-y-11 px-10 font-semibold ">
+          <div className="flex flex-col space-y-11 px-8 font-semibold ">
             <div className="flex flex-row space-x-4 ">
               <TbCircleLetterA
                 className="flex justify-center items-center w-1/12"
