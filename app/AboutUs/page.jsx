@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { Roboto, Poppins } from "next/font/google";
 import { about } from "@/data/constants";
 import { Separator } from "@/components/ui/separator";

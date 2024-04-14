@@ -14,11 +14,36 @@ function MilestonesPage() {
           MILESTONES
         </h1>
         <div className="flex flex-col justify-center items-center">
-          <Image src={"/M1.png"} width={1605} height={1605} alt="milestone" />
-          <Image src={"/M2.png"} width={1605} height={1605} alt="milestone" />
-          <Image src={"/M3.png"} width={1605} height={1605} alt="milestone" />
-          <Image src={"/M4.png"} width={1605} height={1605} alt="milestone" />
-          <Image src={"/M5.png"} width={1605} height={1605} alt="milestone" />
+          <Image
+            src={"/milestonePics/M1.png"}
+            width={1605}
+            height={1605}
+            alt="milestone"
+          />
+          <Image
+            src={"/milestonePics/M2.png"}
+            width={1605}
+            height={1605}
+            alt="milestone"
+          />
+          <Image
+            src={"/milestonePics/M3.png"}
+            width={1605}
+            height={1605}
+            alt="milestone"
+          />
+          <Image
+            src={"/milestonePics/M4.png"}
+            width={1605}
+            height={1605}
+            alt="milestone"
+          />
+          <Image
+            src={"/milestonePics/M5.png"}
+            width={1605}
+            height={1605}
+            alt="milestone"
+          />
         </div>
       </div>
 

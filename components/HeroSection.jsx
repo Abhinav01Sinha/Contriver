@@ -42,7 +42,7 @@ function HeroSection() {
 
       {/* Major Clients */}
       <div className="flex flex-col px-5 lg:px-40">
-        <h1 className="text-center text-4xl text-white font-bold capitalize mt-5">
+        <h1 className="text-center sm:text-4xl text-2xl text-white font-bold capitalize mt-5">
           TRUSTED BY OUR MAJOR CLIENTS . . .
         </h1>
 

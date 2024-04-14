@@ -16,7 +16,7 @@ function Footer() {
             <div>
               <Link href="/">
                 <Image
-                  src={"/X-twitter.png"}
+                  src={"/socials/X-twitter.png"}
                   alt="X-twitter"
                   width={30}
                   height={30}
@@ -26,7 +26,7 @@ function Footer() {
             <div>
               <Link href="/">
                 <Image
-                  src={"/LinkedIn.png"}
+                  src={"/socials/LinkedIn.png"}
                   alt="LinkedIn"
                   width={30}
                   height={30}
@@ -36,7 +36,7 @@ function Footer() {
             <div>
               <Link href="/.png">
                 <Image
-                  src={"/Instagram.png"}
+                  src={"/socials/Instagram.png"}
                   alt="Instagram"
                   width={30}
                   height={30}
@@ -46,7 +46,7 @@ function Footer() {
             <div>
               <Link href="/">
                 <Image
-                  src={"/Facebook.png"}
+                  src={"/socials/Facebook.png"}
                   alt="Facebook"
                   width={30}
                   height={30}
