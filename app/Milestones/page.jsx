@@ -10,7 +10,7 @@ function MilestonesPage() {
     <>
       {/* MILESTONES */}
       <div className=" flex flex-col bg-contriverBgRotate bg-cover bg-center sm:bg-top pt-3 sm:pt-8">
-        <h1 className="sm:text-7xl text-3xl font-bold text-gray-700 text-center pb-12 mb-10 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+        <h1 className="sm:text-7xl text-3xl font-bold text-gray-700 text-center pb-12 sm:mb-10 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
           MILESTONES 2024
         </h1>
         <div className="flex flex-col justify-center items-center bg-blue-50">
@@ -22,7 +22,7 @@ function MilestonesPage() {
           />
 
           <Image
-            src={"/milestonePics/P2.png"}
+            src={"/milestonePics/p2.png"}
             width={1050}
             height={1305}
             alt="milestone"

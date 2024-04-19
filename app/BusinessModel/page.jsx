@@ -8,9 +8,9 @@ import {
 
 function BusnessModelPage() {
   return (
-    <div className="bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-no-repeat">
+    <div>
       {/* How will we make? */}
-      <div className="sm:px-20 px-6 sm:py-6 py-5 flex flex-col">
+      <div className="sm:px-20 px-4 sm:py-6 py-5 flex flex-col bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-top bg-no-repeat">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
           <h1 className="sm:text-7xl text-3xl text-gray-700 text-center font-bold capitalize mt-4 mb-10 sm:mb-10">
@@ -46,13 +46,13 @@ function BusnessModelPage() {
           </div>
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0  ">
-              <div className="bg-gray-700 text-blue-50  font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
+              <div className="bg-gray-700 text-blue-50 font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-2 sm:space-x-5">
                 {/* icon */}
                 <TbPentagonNumber2 />
                 {/* heading */}
                 <p className="font-semibold">Network by Subscriptions</p>
               </div>
-              <p className="sm:text-xl font-semibold text-center px-6 pb-3">
+              <p className="sm:text-xl font-semibold text-center px-3 pb-3">
                 Whereas the business is entirely a separate channel we look
                 forward to license our IPRs on based on subscriptions defined
                 case to case basis.
