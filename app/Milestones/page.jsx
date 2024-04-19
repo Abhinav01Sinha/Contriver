@@ -20,6 +20,7 @@ function MilestonesPage() {
             height={1305}
             alt="milestone"
           />
+
           <Image
             src={"/milestonePics/P2.png"}
             width={1050}
