@@ -8,7 +8,7 @@ import ACIC from "/public/clients/ACIC.jpeg";
 export const about = [
   {
     title:
-      "Swarm of 20 drones for 7.5 kms range Wi-Fi that can trap other drones mid-flight.",
+      "Swarm of 20 drones for 7.5 kms range Wi-Fi that can trap other drones mid-flight. Full developement of both hardware and software. System has ability to work in rain, 50 Miles/hr wind and snowing conditions. Innormal weather conditions, can give range up to 7 kilometres. Indoor signal reception with bearable noise is up to 8 walls without any loss indata packets.",
     description: [
       { feature: "Project cost 10Lacs" },
       { feature: "Economy Generated = 1.5Cr." },
@@ -20,7 +20,7 @@ export const about = [
   },
   {
     title:
-      "System for emergency vehicles equipped with our module that performs as such that during an emergency visit the module in the vehicle sends a signal to approaching traffic signal 300 meters before, so that it turns the signal green thereby providing an autonomous green corridor. ",
+      "System for emergency vehicles equipped with our module that performs as such that during an emergency visit the module in the vehicle sends a signal to approaching traffic signal few meters before, so that it turns the signal green thereby providing an autonomous green corridor. ",
     description: [
       { feature: "Project Cost: 2.7Lacs" },
       { feature: "Economy Generated = 20Lacs" },
@@ -75,32 +75,32 @@ export const clients = [
   {
     name: "BAE Systems",
     img: BAE,
-    size: 250,
+    web: "",
   },
   {
     name: "Instapower Ltd",
     img: Instapower,
-    size: 150,
+    web: "",
   },
   {
-    name: "Garden Reach Shipbuilders and Engineers Ltd",
+    name: "GRSE Ltd",
     img: GRSE,
-    size: 150,
+    web: "",
   },
   {
     name: "AIC Empi Org",
     img: AIC,
-    size: 300,
+    web: "",
   },
   {
     name: "German X GMBH",
     img: GermanX,
-    size: 150,
+    web: "",
   },
   {
     name: "ACIC BMU Org",
     img: ACIC,
-    size: 150,
+    web: "",
   },
 ];
 
@@ -122,5 +122,53 @@ export const workingSteps = [
   },
   {
     step: "Once the channel is set we then develop a system and deliver to the first business/person.",
+  },
+];
+
+export const secondMarket = [
+  {
+    point:
+      "Reduction of crashing possibilities and sound levels less than 20 decibels, the use cases that require close range monitoring becomes newer horizons of use cases.",
+  },
+  {
+    point:
+      "The total life of the UAV is yet to be decided, since the crashing possibilities are nearly negligible.",
+  },
+  {
+    point:
+      "Putting a number over the financial gains is not applicable as the system on itself is novel and never been attempted before.",
+  },
+  { point: "A predicted price of the UAV shall be ₹75L." },
+  { point: "The complete pitch deck defines very clearly TAM-SAM-SOM." },
+  {
+    point:
+      "We look into the potential value addition and as the model found appropriate, we deliver. We always are willing to recurring revenue options.",
+  },
+];
+
+export const firstMarket = [
+  {
+    point:
+      "Average cost of a large drone is from ₹ 10L - ₹ 1.5Cr with applications ranging from Kissan Drones to Defence Drones.",
+  },
+  {
+    point:
+      "Most designs are similar with vulnerable exposed propellers that rotate to create thrust as well as lift. The major hardware criteria that is required is to vertical take-off and to hover.",
+  },
+  {
+    point:
+      "Our fixed wing has the same capability but with unexposed propeller that reduces the possibilities of crashing to negligible.",
+  },
+  {
+    point:
+      "With only few research data available (USA), for every 1000-hour flight 1 large drone > (250kg) crashes. Three major reason is propeller wreckage, battery failure and lost navigation. The aircraft after crash is no longer airworthy. Crash on public property is another hazard.",
+  },
+  {
+    point:
+      "Manufacturers rely on outsourced technology which makes drones costly. Development is limited to limited and recurring resources of software and hardware. Limited functionality of systems, non-explorative technologies.",
+  },
+  {
+    point:
+      "Our Solution : We are in a process to design and develop a UAV that is extra durable and shall not fall dead if collided with a bird while flying. A hex copter, in design that keeps its sound levels less than 20 Decibels and is completely autonomous. Durable to 40kmph collisions along with fail safe that extends its life!! Multiple Applications.",
   },
 ];

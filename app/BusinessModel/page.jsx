@@ -1,11 +1,6 @@
+import { firstMarket, market, secondMarket } from "@/data/constants";
 import React from "react";
 import {
-  TbCircleLetterA,
-  TbCircleLetterB,
-  TbCircleLetterC,
-  TbCircleLetterD,
-  TbCircleLetterE,
-  TbCircleLetterF,
   TbPentagonNumber1,
   TbPentagonNumber2,
   TbPentagonNumber3,
@@ -13,28 +8,31 @@ import {
 
 function BusnessModelPage() {
   return (
-    <div className="bg-blue-400 ">
+    <div className="bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-no-repeat">
       {/* How will we make? */}
-      <div className="sm:py-10 sm:px-20 px-6 sm:py-10 py-5 flex flex-col">
+      <div className="sm:px-20 px-6 sm:py-6 py-5 flex flex-col">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-          <h1 className="sm:text-7xl sm:text-3xl text-2xl text-white text-center font-bold capitalize mb-6">
+          <h1 className="sm:text-7xl text-3xl text-gray-700 text-center font-bold capitalize mt-4 mb-10 sm:mb-10">
             How will we make ?
           </h1>
-          <p className="sm:text-xl text-white font-semibold mb-2">
-            &rarr; We always look forward to developing intellectual properties
-            as appropriate and keeps the entire system exclusive (larger moat).
-          </p>
-          <p className="sm:text-xl text-white font-semibold">
-            We then work with business models as below :
-          </p>
+          <div className="bg-gray-700 px-8 py-5">
+            <p className="sm:text-xl text-white font-semibold mb-2">
+              &rarr; We always look forward to developing intellectual
+              properties as appropriate and keeps the entire system exclusive
+              (larger moat).
+            </p>
+            <p className="sm:text-xl text-white font-semibold">
+              &rarr; We then work with business models as below :
+            </p>
+          </div>
         </div>
 
         {/* Methods */}
         <div className="flex sm:flex-row flex-col sm:space-x-5 sm:px-0">
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0  ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
+              <div className="bg-gray-700 text-blue-50  font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber1 />
                 {/* heading */}
@@ -48,11 +46,11 @@ function BusnessModelPage() {
           </div>
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0  ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
+              <div className="bg-gray-700 text-blue-50  font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber2 />
                 {/* heading */}
-                <p className="font-semibold">Network Subscriptions</p>
+                <p className="font-semibold">Network by Subscriptions</p>
               </div>
               <p className="sm:text-xl font-semibold text-center px-6 pb-3">
                 Whereas the business is entirely a separate channel we look
@@ -63,7 +61,7 @@ function BusnessModelPage() {
           </div>
           <div className="sm:w-1/3 flex flex-row bg-white sm:my-10 my-5 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
             <div className="flex flex-col space-y-5 sm:pb-0 ">
-              <div className="bg-black text-white font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
+              <div className="bg-gray-700 text-blue-50 font-semibold py-4 flex flex-row justify-center items-center sm:text-3xl text-2xl space-x-5">
                 {/* icon */}
                 <TbPentagonNumber3 />
                 {/* heading */}
@@ -80,163 +78,38 @@ function BusnessModelPage() {
       </div>
 
       {/* MARKET Opportunites  */}
-      <div className="flex sm:flex-row flex-col bg-white sm:p-10">
+      <div className="flex sm:flex-row flex-col bg-blue-50 sm:p-10 pb-10">
         {/* First Market */}
-        <div className="flex flex-col mx-auto sm:w-1/2 ">
-          <p className="text-center text-blue-400 font-bold sm:text-4xl text-xl my-5">
+        <div className="flex flex-col mx-auto sm:w-1/2 mb-10 sm:mb-4">
+          <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-4xl text-xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
             First Market opportunity - UAV Product
           </p>
-          <div className="flex flex-col space-y-5 px-8 font-semibold ">
-            <div className="flex flex-row space-x-4 ">
-              <TbCircleLetterA
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-              <p className="w-11/12 my-auto">
-                Average cost of a large drone is from ₹ 10L - ₹ 1.5Cr with
-                applications ranging from Kissan Drones to Defence Drones.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterB
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                Most designs are similar with vulnerable exposed propellers that
-                rotate to create thrust as well as lift. The major hardware
-                criteria that is required is to vertical take-off and to hover.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterC
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                Our fixed wing has the same capability but with unexposed
-                propeller that reduces the possibilities of crashing to
-                negligible.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterD
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                With only few research data available (USA), for every 1000-hour
-                flight 1 large drone &gt; (250kg) crashes. Three major reason is
-                propeller wreckage, battery failure and lost navigation. The
-                aircraft after crash is no longer airworthy. Crash on public
-                property is another hazard.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterE
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                Manufacturers rely on outsourced technology which makes drones
-                costly. Development is limited to limited and recurring
-                resources of software and hardware. Limited functionality of
-                systems, non-explorative technologies.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterF
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                Our Solution : We are in a process to design and develop a UAV
-                that is extra durable and shall not fall dead if collided with a
-                bird while flying. A hex copter, in design that keeps its sound
-                levels less than 20 Decibels and is completely autonomous.
-                Durable to 40kmph collisions along with fail safe that extends
-                its life!! Multiple Applications.
-              </p>
-            </div>
+          <div className="flex flex-col space-y-5 px-8 font-semibold mt-2">
+            {firstMarket.map((pt, ind) => (
+              <div
+                key={ind}
+                className="flex flex-row justify-center items-center"
+              >
+                <p className="w-11/12">{pt.point}</p>
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Second Market */}
-        <div className="flex flex-col mx-auto sm:w-1/2 mb-10 sm:mb-0 mt-5 sm:mt-0">
-          <p className="text-center text-blue-400 font-bold sm:text-4xl text-2xl my-5">
+        <div className="flex flex-col mx-auto sm:w-1/2 ">
+          <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-4xl text-2xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
             Second Market Opportunity
           </p>
-          <div className="flex flex-col space-y-11 px-8 font-semibold ">
-            <div className="flex flex-row space-x-4 ">
-              <TbCircleLetterA
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-              <p className="w-11/12 my-auto">
-                Reduction of crashing possibilities and sound levels less than
-                20 decibels, the use cases that require close range monitoring
-                becomes newer horizons of use cases.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterB
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                The total life of the UAV is yet to be decided, since the
-                crashing possibilities are nearly negligible.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterC
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                Putting a number over the financial gains is not applicable as
-                the system on itself is novel and never been attempted before.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterD
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                A predicted price of the UAV shall be ₹75L.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterE
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                The complete pitch deck defines very clearly TAM-SAM-SOM.
-              </p>
-            </div>
-            <div className="flex flex-row space-x-4">
-              <TbCircleLetterF
-                className="flex justify-center items-center w-1/12"
-                style={{ fontSize: "40px" }}
-              />
-
-              <p className="w-11/12 my-auto">
-                We look into the potential value addition and as the model found
-                appropriate, we deliver. We always are willing to recurring
-                revenue options.
-              </p>
-            </div>
+          <div className="flex flex-col space-y-11 px-8 font-semibold mt-4 sm:mt-0">
+            {secondMarket.map((pt, ind) => (
+              <div
+                key={ind}
+                className="flex flex-row justify-center items-center"
+              >
+                <p className="w-11/12">{pt.point}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

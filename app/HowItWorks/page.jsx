@@ -23,57 +23,67 @@ import Link from "next/link";
 function HowItWorksPage() {
   return (
     <>
-      {/* Go-To Bar */}
-      <div className="hidden sm:flex flex-row bg-blue-400 justify-center items-center pt-8">
-        <p className="px-5 py-2 text-lg text-white font-bold">NAVIAGATE TO :</p>
-
-        <Link
-          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
-          href={"#how-it-works"}
-        >
-          How It Works ?
-        </Link>
-        <Link
-          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
-          href={"#who-does-it"}
-        >
-          Who Does It ?
-        </Link>
-        <Link
-          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
-          href={"#how-much-we-require"}
-        >
-          How Much We Require ?
-        </Link>
-        <Link
-          className="px-5 py-2 border-2 border-solid border-black bg-blue-900 text-white font-semibold"
-          href={"#scale-up-process"}
-        >
-          Scale Up Process ?
-        </Link>
-      </div>
-
       {/* How it Works */}
-      <div id="how-it-works" className="bg-blue-400">
+      <div
+        id="how-it-works"
+        className="bg-contriverBgRotatePhone sm:bg-contriverBgFlip bg-cover bg-no-repeat bg-top"
+      >
+        {/* Go-To Bar */}
+        <div className="hidden sm:flex flex-row justify-center items-center pt-8">
+          <p className="px-5 py-2 text-lg bg-blue-50 text-gray-700 font-bold">
+            NAVIAGATE TO :
+          </p>
+
+          <Link
+            className="px-5 py-2 border-2 border-solid border-black bg-gray-700 text-blue-50 font-semibold"
+            href={"#how-it-works"}
+          >
+            How It Works ?
+          </Link>
+          <Link
+            className="px-5 py-2 border-2 border-solid border-black bg-gray-700 text-blue-50 font-semibold"
+            href={"#who-does-it"}
+          >
+            Who Does It ?
+          </Link>
+          <Link
+            className="px-5 py-2 border-2 border-solid border-black bg-gray-700 text-blue-50 font-semibold"
+            href={"#how-much-we-require"}
+          >
+            How Much We Require ?
+          </Link>
+          <Link
+            className="px-5 py-2 border-2 border-solid border-black bg-gray-700 text-blue-50 font-semibold"
+            href={"#scale-up-process"}
+          >
+            Scale Up Process ?
+          </Link>
+        </div>
+
         <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
           <div className="flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               HOW IT{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               WORKS ?
             </p>
           </div>
-          <Timeline className="flex sm:w-2/3 " position="alternate-reverse">
+          <Timeline className="flex sm:w-2/3" position="alternate-reverse">
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <LooksOneOutlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <LooksOneOutlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We first find mundane problems that are affecting large group
                   of people in businesses and in usual scenarios.
                 </div>
@@ -81,13 +91,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <LooksTwoOutlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <LooksTwoOutlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then go for a literature review and find business potential
                   in the problem and value that can be added if the problem is
                   solved.
@@ -96,13 +111,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks3Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks3Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then work out for solutions that are thematically
                   autonomous and require least human interference as most
                   problems that we look for are quite mundane.
@@ -111,13 +131,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks4Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks4Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then look for potential channels by which the business can
                   be established.
                 </div>
@@ -125,13 +150,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks5Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks5Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   We then contact and connect those businesses and share our
                   ideas to them while giving the idea of potential value that
                   can be added.
@@ -140,12 +170,17 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks6Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks6Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-2 border-black border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
                   Once the channel is set we then develop a system and deliver
                   to the first business/person.
                 </div>
@@ -156,14 +191,14 @@ function HowItWorksPage() {
       </div>
 
       {/* Who Does It Section */}
-      <div id="who-does-it" className="bg-black">
+      <div id="who-does-it" className="bg-blue-50 ">
         <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
           {/* Mobile view */}
           <div className="sm:hidden inline-block flex flex-col text-center mb-2 justify-center items-center">
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               DOES IT ?
             </p>
           </div>
@@ -171,13 +206,18 @@ function HowItWorksPage() {
           <Timeline className="flex sm:w-2/3" position="alternate-reverse">
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <LooksOneOutlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <LooksOneOutlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   With the tactical skills that we have developed first problem
                   seeking is done by research team.
                 </div>
@@ -185,13 +225,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <LooksTwoOutlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <LooksTwoOutlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Once the problem is decided, a team sees and does a literature
                   review and possibilities of value addition.
                 </div>
@@ -199,13 +244,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks3Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks3Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Director’s Office sees the prospect spaces where thematically
                   the company can help and benefit. This also includes addition
                   in skills and expansion in capabilities as a company.
@@ -214,13 +264,18 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks4Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks4Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2  sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2  sm:text-lg">
                   An outsourced or internal team is hired for business
                   development with ppts to reach out to potential businesses OR
                   we contact the business in pain directly.
@@ -229,25 +284,35 @@ function HowItWorksPage() {
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white border-2 border-black border-solid">
-                  <Looks5Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks5Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   A software team looks into development.
                 </div>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
-                <TimelineDot className="bg-white text-white border-2 border-black border-solid">
-                  <Looks6Outlined className="text-black" />
+                <TimelineDot
+                  style={{
+                    backgroundColor: "white",
+                    border: "2px solid #334963",
+                  }}
+                >
+                  <Looks6Outlined style={{ color: "#334963" }} />
                 </TimelineDot>
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-white text-center hover:shadow-lg max-w-3xl bg-blue-400 border-4 border-white border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
                   Finally the Director’s Office oversees the process and
                   delivers the project.
                 </div>
@@ -257,10 +322,10 @@ function HowItWorksPage() {
 
           {/* PC view */}
           <div className="sm:flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center hidden">
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-white my-2">
+            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
               DOES IT?
             </p>
           </div>
@@ -268,9 +333,12 @@ function HowItWorksPage() {
       </div>
 
       {/* How much we require and for What? */}
-      <div id="how-much-we-require" className="bg-blue-400">
-        <div className="flex py-10 sm:py-20 sm:px-10 flex-col space-y-10 justify-center items-center">
-          <h1 className="sm:text-6xl text-xl text-white font-bold capitalize">
+      <div
+        id="how-much-we-require"
+        className="bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-no-repeat "
+      >
+        <div className="flex py-10 sm:py-10 sm:px-10 flex-col space-y-10 justify-center items-center">
+          <h1 className="sm:text-5xl text-xl text-gray-700 font-bold capitalize">
             How much we require and for what ?
           </h1>
           <div className="flex flex-col sm:flex-row px-20">
@@ -278,7 +346,7 @@ function HowItWorksPage() {
             <div className="flex flex-col sm:w-1/2 justify-center items-center space-y-10 sm:px-20 mb-10 sm:mb-0">
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
                 <LooksOneSharpIcon
-                  className="my-auto"
+                  className="my-auto text-gray-700"
                   style={{ fontSize: "4rem" }}
                 />
                 <p>
@@ -289,7 +357,7 @@ function HowItWorksPage() {
               </div>
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
                 <LooksTwoSharpIcon
-                  className="my-auto"
+                  className="my-auto text-gray-700"
                   style={{ fontSize: "4rem" }}
                 />
 
@@ -300,7 +368,10 @@ function HowItWorksPage() {
                 </p>
               </div>
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
-                <Looks3Sharp className="my-auto" style={{ fontSize: "4rem" }} />
+                <Looks3Sharp
+                  className="my-auto text-gray-700"
+                  style={{ fontSize: "4rem" }}
+                />
 
                 <p>
                   We are asking for development of the prototype, product,
@@ -309,7 +380,10 @@ function HowItWorksPage() {
                 </p>
               </div>
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
-                <Looks4Sharp className="my-auto" style={{ fontSize: "4rem" }} />
+                <Looks4Sharp
+                  className="my-auto text-gray-700"
+                  style={{ fontSize: "4rem" }}
+                />
 
                 <div className="flex flex-col">
                   <p>
@@ -328,11 +402,11 @@ function HowItWorksPage() {
 
             {/* Breakout */}
             <div className="flex flex-col sm:w-1/2 sm:justify-center sm:items-center space-y-5 ">
-              <p className="text-white text-center text-xl sm:text-2xl font-bold capitalize mb-2">
+              <p className="text-gray-700 text-center text-xl sm:text-2xl font-bold capitalize mb-2">
                 The Breakout of the raw materials is as follows :
               </p>
               <table className="border-black border-2 border-solid">
-                <thead className="bg-black text-white">
+                <thead className="bg-gray-700 text-blue-50">
                   <tr className="border-black border-2 border-solid">
                     <th className="text-center py-4 px-6 w-1/5">Amount</th>
                     <th className="text-center py-4 px-2 w-2/5">Used For</th>
@@ -397,25 +471,25 @@ function HowItWorksPage() {
       </div>
 
       {/* Is there a scale up process and something more? */}
-      <div id="scale-up-process" className="bg-white">
-        <div className="flex py-10 sm:py-20 sm:px-2 flex-col space-y-10 justify-center items-center">
-          <h1 className="sm:text-5xl text-center text-2xl text-blue-400 font-bold capitalize">
-            Is there a scale up process and something more ?
+      <div id="scale-up-process" className="bg-blue-50 ">
+        <div className="flex py-10 sm:py-10 sm:pb-20 sm:px-2 flex-col space-y-10 justify-center items-center">
+          <h1 className="text-gray-700 sm:text-5xl text-center text-2xl font-bold capitalize">
+            Scale up process and something more ?
           </h1>
 
-          <div className="flex flex-col sm:flex-row sm:px-20 text-lg space-x-2">
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-white py-4 px-2">
+          <div className="flex flex-col sm:flex-row sm:px-20 text-lg ">
+            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <LooksOneSharpIcon
-                className="my-auto"
+                className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}
               />
               <p className="my-auto">
                 Based on the total delivery, we then work for scale up process.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-white py-4 px-2">
+            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <LooksTwoSharpIcon
-                className="my-auto"
+                className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}
               />
 
@@ -425,8 +499,11 @@ function HowItWorksPage() {
                 institutions.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-white py-4 px-2">
-              <Looks3Sharp className="my-auto" style={{ fontSize: "4rem" }} />
+            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+              <Looks3Sharp
+                className="my-auto text-gray-700"
+                style={{ fontSize: "4rem" }}
+              />
 
               <p className="my-auto">
                 {" "}
@@ -434,8 +511,11 @@ function HowItWorksPage() {
                 entire systems better by the people of the clients.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-white py-4 px-2">
-              <Looks4Sharp className="my-auto" style={{ fontSize: "4rem" }} />
+            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+              <Looks4Sharp
+                className="my-auto text-gray-700"
+                style={{ fontSize: "4rem" }}
+              />
 
               <p className="my-auto">
                 We look forward to complete value addition wherever deems fit.
