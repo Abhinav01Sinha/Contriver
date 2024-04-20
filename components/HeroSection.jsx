@@ -12,7 +12,7 @@ const roboto = Roboto({
 function HeroSection() {
   return (
     <div
-      className={`${roboto.className} justify-center items-start bg-contriverBgRotate sm:bg-contriverBgFlip bg-cover bg-top pt-10 h-full `}
+      className={`${roboto.className} justify-center items-start bg-contriverBgRotate sm:bg-contriverBgFlip bg-cover bg-top pt-10`}
     >
       {/* WHO ARE WE? */}
       <div className="bg-gray-700 sm:w-3/5 flex flex-col mx-10 p-4 lg:p-10 my-5 animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
@@ -59,12 +59,9 @@ function HeroSection() {
           className="w-full space-x-10 my-10 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
         >
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 [&_img]:max-w-none animate-infinite-scroll">
-            {clients.map((client, ind) => (
+            {clients.map((client) => (
               <li key={client.name}>
-                <Link
-                  href={"/"}
-                  className="text-lg text-black hover:text-gray-800"
-                >
+                <Link href={client.web} className=" hover:shadow-lg">
                   <Image src={client.img} width={150} height={150} />
                 </Link>
               </li>
@@ -74,12 +71,9 @@ function HeroSection() {
             className="flex items-center justify-center md:justify-start [&_li]:mx-10 w-full [&_img]:max-w-none animate-infinite-scroll"
             aria-hidden="true"
           >
-            {clients.map((client, ind) => (
+            {clients.map((client) => (
               <li key={client.name}>
-                <Link
-                  href={"/"}
-                  className="text-lg text-black hover:text-white"
-                >
+                <Link href={client.web} className=" hover:shadow-lg">
                   <Image src={client.img} width={150} height={150} />
                 </Link>
               </li>

@@ -26,10 +26,10 @@ function HowItWorksPage() {
       {/* How it Works */}
       <div
         id="how-it-works"
-        className="bg-contriverBgRotatePhone sm:bg-contriverBgFlip bg-cover bg-no-repeat bg-top"
+        className="bg-contriverBgRotatePhone lg:bg-contriverBgFlip bg-cover bg-no-repeat bg-top"
       >
         {/* Go-To Bar */}
-        <div className="hidden sm:flex flex-row justify-center items-center pt-8">
+        <div className="hidden lg:flex flex-row justify-center items-center pt-8">
           <p className="px-5 py-2 text-lg bg-blue-50 text-gray-700 font-bold">
             NAVIAGATE TO :
           </p>
@@ -60,16 +60,16 @@ function HowItWorksPage() {
           </Link>
         </div>
 
-        <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
-          <div className="flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+        <div className="flex lg:flex-row py-10 lg:py-20 lg:px-10 flex-col">
+          <div className="flex flex-col lg:w-1/3 text-center mb-2 justify-center items-center animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               HOW IT{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               WORKS ?
             </p>
           </div>
-          <Timeline className="flex sm:w-2/3" position="alternate-reverse">
+          <Timeline className="flex lg:w-2/3" position="alternate-reverse">
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot
@@ -83,7 +83,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   We first find mundane problems that are affecting large group
                   of people in businesses and in usual scenarios.
                 </div>
@@ -102,7 +102,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   We then go for a literature review and find business potential
                   in the problem and value that can be added if the problem is
                   solved.
@@ -122,7 +122,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   We then work out for solutions that are thematically
                   autonomous and require least human interference as most
                   problems that we look for are quite mundane.
@@ -142,7 +142,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   We then look for potential channels by which the business can
                   be established.
                 </div>
@@ -161,7 +161,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   We then contact and connect those businesses and share our
                   ideas to them while giving the idea of potential value that
                   can be added.
@@ -180,7 +180,7 @@ function HowItWorksPage() {
                 </TimelineDot>
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 sm:px-6 px-2 sm:text-md">
+                <div className="text-center hover:shadow-lg max-w-3xl bg-white border-gray-700 border-2 border-solid py-4 lg:px-6 px-2 lg:text-md">
                   Once the channel is set we then develop a system and deliver
                   to the first business/person.
                 </div>
@@ -192,18 +192,18 @@ function HowItWorksPage() {
 
       {/* Who Does It Section */}
       <div id="who-does-it" className="bg-blue-50 ">
-        <div className="flex lg:flex-row py-10 sm:py-20 sm:px-10 flex-col">
+        <div className="flex lg:flex-row py-10 lg:py-20 lg:px-10 flex-col">
           {/* Mobile view */}
-          <div className="sm:hidden inline-block flex flex-col text-center mb-2 justify-center items-center">
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+          <div className="lg:hidden inline-block flex flex-col text-center mb-2 justify-center items-center">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               DOES IT ?
             </p>
           </div>
 
-          <Timeline className="flex sm:w-2/3" position="alternate-reverse">
+          <Timeline className="flex lg:w-2/3" position="alternate-reverse">
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot
@@ -217,7 +217,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2 lg:text-lg">
                   With the tactical skills that we have developed first problem
                   seeking is done by research team.
                 </div>
@@ -236,7 +236,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2 lg:text-lg">
                   Once the problem is decided, a team sees and does a literature
                   review and possibilities of value addition.
                 </div>
@@ -255,7 +255,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2 lg:text-lg">
                   Director’s Office sees the prospect spaces where thematically
                   the company can help and benefit. This also includes addition
                   in skills and expansion in capabilities as a company.
@@ -275,7 +275,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2  sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2  lg:text-lg">
                   An outsourced or internal team is hired for business
                   development with ppts to reach out to potential businesses OR
                   we contact the business in pain directly.
@@ -295,7 +295,7 @@ function HowItWorksPage() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2 lg:text-lg">
                   A software team looks into development.
                 </div>
               </TimelineContent>
@@ -312,7 +312,7 @@ function HowItWorksPage() {
                 </TimelineDot>
               </TimelineSeparator>
               <TimelineContent className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 sm:px-6 px-2 sm:text-lg">
+                <div className="bg-gray-700 text-blue-50 text-center hover:shadow-2xl shadow-gray-700/50 max-w-3xl border- border-2 border-solid py-4 lg:px-6 px-2 lg:text-lg">
                   Finally the Director’s Office oversees the process and
                   delivers the project.
                 </div>
@@ -321,11 +321,11 @@ function HowItWorksPage() {
           </Timeline>
 
           {/* PC view */}
-          <div className="sm:flex flex-col sm:w-1/3 text-center mb-2 justify-center items-center hidden">
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+          <div className="lg:flex flex-col lg:w-1/3 text-center mb-2 justify-center items-center hidden">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               WHO{" "}
             </p>
-            <p className="sm:text-7xl text-5xl font-bold text-gray-700 my-2">
+            <p className="lg:text-7xl text-5xl font-bold text-gray-700 my-2">
               DOES IT?
             </p>
           </div>
@@ -335,15 +335,15 @@ function HowItWorksPage() {
       {/* How much we require and for What? */}
       <div
         id="how-much-we-require"
-        className="bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-no-repeat "
+        className="bg-contriverBgRotatePhone lg:bg-contriverBgRotate bg-cover bg-no-repeat "
       >
-        <div className="flex py-10 sm:py-10 sm:px-10 flex-col space-y-10 justify-center items-center">
-          <h1 className="sm:text-5xl text-xl text-gray-700 font-bold capitalize">
+        <div className="flex py-10 lg:py-10 lg:px-10 flex-col space-y-10 justify-center items-center">
+          <h1 className="sm:text-3xl lg:text-5xl text-xl text-gray-700 font-bold capitalize">
             How much we require and for what ?
           </h1>
-          <div className="flex flex-col sm:flex-row px-20">
+          <div className="flex flex-col lg:flex-row px-20">
             {/* Steps */}
-            <div className="flex flex-col sm:w-1/2 justify-center items-center space-y-10 sm:px-20 mb-10 sm:mb-0">
+            <div className="flex flex-col lg:w-1/2 justify-center items-center space-y-10 lg:px-20 mb-10 lg:mb-0">
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
                 <LooksOneSharpIcon
                   className="my-auto text-gray-700"
@@ -401,8 +401,8 @@ function HowItWorksPage() {
             </div>
 
             {/* Breakout */}
-            <div className="flex flex-col sm:w-1/2 sm:justify-center sm:items-center space-y-5 ">
-              <p className="text-gray-700 text-center text-xl sm:text-2xl font-bold capitalize mb-2">
+            <div className="flex flex-col lg:w-1/2 lg:justify-center lg:items-center space-y-5 ">
+              <p className="text-gray-700 text-center text-xl lg:text-2xl font-bold capitalize mb-2">
                 The Breakout of the raw materials is as follows :
               </p>
               <table className="border-black border-2 border-solid">
@@ -472,13 +472,13 @@ function HowItWorksPage() {
 
       {/* Is there a scale up process and something more? */}
       <div id="scale-up-process" className="bg-blue-50 ">
-        <div className="flex py-10 sm:py-10 sm:pb-20 sm:px-2 flex-col space-y-10 justify-center items-center">
-          <h1 className="text-gray-700 sm:text-5xl text-center text-2xl font-bold capitalize">
+        <div className="flex py-10 lg:py-10 lg:pb-20 lg:px-2 flex-col space-y-10 justify-center items-center">
+          <h1 className="text-gray-700 lg:text-5xl sm:text-3xl text-2xl text-center font-bold capitalize">
             Scale up process and something more ?
           </h1>
 
-          <div className="flex flex-col sm:flex-row sm:px-20 text-lg ">
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+          <div className="flex flex-col lg:flex-row lg:px-20 text-lg ">
+            <div className="flex flex-row lg:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <LooksOneSharpIcon
                 className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}
@@ -487,7 +487,7 @@ function HowItWorksPage() {
                 Based on the total delivery, we then work for scale up process.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+            <div className="flex flex-row lg:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <LooksTwoSharpIcon
                 className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}
@@ -499,7 +499,7 @@ function HowItWorksPage() {
                 institutions.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+            <div className="flex flex-row lg:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <Looks3Sharp
                 className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}
@@ -511,7 +511,7 @@ function HowItWorksPage() {
                 entire systems better by the people of the clients.
               </p>
             </div>
-            <div className="flex flex-row sm:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
+            <div className="flex flex-row lg:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <Looks4Sharp
                 className="my-auto text-gray-700"
                 style={{ fontSize: "4rem" }}

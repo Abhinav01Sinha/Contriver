@@ -75,32 +75,32 @@ export const clients = [
   {
     name: "BAE Systems",
     img: BAE,
-    web: "",
+    web: "https://www.baesystems.com/en/home",
   },
   {
     name: "Instapower Ltd",
     img: Instapower,
-    web: "",
+    web: "https://www.instapower.com/",
   },
   {
     name: "GRSE Ltd",
     img: GRSE,
-    web: "",
+    web: "https://grse.in/",
   },
   {
     name: "AIC Empi Org",
     img: AIC,
-    web: "",
+    web: "https://aic-empi.org/",
   },
   {
     name: "German X GMBH",
     img: GermanX,
-    web: "",
+    web: "https://www.german-x.com/",
   },
   {
     name: "ACIC BMU Org",
     img: ACIC,
-    web: "",
+    web: "https://www.acic-bmu.in/",
   },
 ];
 
