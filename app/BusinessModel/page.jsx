@@ -10,7 +10,7 @@ function BusnessModelPage() {
   return (
     <div>
       {/* How will we make? */}
-      <div className="sm:px-5 lg:px-20 px-4 py-5 flex flex-col bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-top bg-no-repeat">
+      <div className="sm:px-5 lg:px-10 px-4 py-5 flex flex-col bg-contriverBgRotatePhone sm:bg-contriverBgRotate bg-cover bg-top bg-no-repeat">
         {/* Headline */}
         <div className="flex flex-col justify-center items-center animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
           <h1 className="text-3xl sm:text-4xl lg:text-7xl text-gray-700 text-center font-bold capitalize mt-4 mb-10">
@@ -80,7 +80,7 @@ function BusnessModelPage() {
       {/* MARKET Opportunites  */}
       <div className="flex sm:flex-row flex-col bg-blue-50 sm:px-6 sm:py-10 pb-10">
         {/* First Market */}
-        <div className="flex flex-col mx-auto md:w-1/2 mb-10 sm:mb-2">
+        <div className="flex flex-col mx-auto md:w-7/12 mb-10 sm:mb-2">
           <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-3xl lg:text-4xl text-xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
             First Market Opportunity [UAV Product]
           </p>
@@ -97,7 +97,7 @@ function BusnessModelPage() {
         </div>
 
         {/* Second Market */}
-        <div className="flex flex-col mx-auto md:w-1/2 ">
+        <div className="flex flex-col mx-auto md:w-5/12 ">
           <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-3xl lg:text-4xl text-2xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
             Second Market Opportunity
           </p>

@@ -37,7 +37,7 @@ function MilestonesPage() {
             Milestones based implementations?
           </h1>
 
-          <div className="flex flex-col lg:flex-row lg:px-20 text-lg space-x-8">
+          <div className="flex flex-col lg:flex-row px-5 2xl:px-20 text-lg space-x-6">
             <div className="flex flex-row lg:ml-0 ml-8 lg:w-1/3 space-x-4 bg-blue-50 py-4 px-0">
               <LooksOneSharpIcon
                 style={{ fontSize: "4rem" }}
@@ -48,7 +48,7 @@ function MilestonesPage() {
                   First Quarter, starts from the day the first operational and
                   manpower cost is given.
                 </p>
-                <Separator className="h-0.5 mr-0 bg-black" />
+                <Separator className="h-0.5 bg-black" />
                 <p className="h-2/6 lg:h-1/2">
                   Project need, scope, cost and valuation.
                 </p>

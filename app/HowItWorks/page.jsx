@@ -338,12 +338,12 @@ function HowItWorksPage() {
         className="bg-contriverBgRotatePhone lg:bg-contriverBgRotate bg-cover bg-no-repeat "
       >
         <div className="flex py-10 lg:py-10 lg:px-10 flex-col space-y-10 justify-center items-center">
-          <h1 className="sm:text-3xl lg:text-5xl text-xl text-gray-700 font-bold capitalize">
+          <h1 className="sm:text-3xl md:text-4xl text-xl text-gray-700 font-bold capitalize">
             How much we require and for what ?
           </h1>
-          <div className="flex flex-col lg:flex-row px-20">
+          <div className="flex flex-col lg:flex-row px-10 2xl:px-20">
             {/* Steps */}
-            <div className="flex flex-col lg:w-1/2 justify-center items-center space-y-10 lg:px-20 mb-10 lg:mb-0">
+            <div className="flex flex-col lg:w-1/2 justify-center items-center space-y-10 lg:pr-20 mb-10 lg:mb-0">
               <div className="flex flex-row space-x-5 bg-white border-2 border-solid border-black p-4">
                 <LooksOneSharpIcon
                   className="my-auto text-gray-700"
@@ -402,9 +402,10 @@ function HowItWorksPage() {
 
             {/* Breakout */}
             <div className="flex flex-col lg:w-1/2 lg:justify-center lg:items-center space-y-5 ">
-              <p className="text-gray-700 text-center text-xl lg:text-2xl font-bold capitalize mb-2">
-                The Breakout of the raw materials is as follows :
+              <p className="block sm:hidden bg-blue-50 p-2 text-gray-700 text-center border-black border-2 border-solid text-xl lg:text-2xl font-bold capitalize mb-2">
+                Breakout of the Raw Materials
               </p>
+
               <table className="border-black border-2 border-solid">
                 <thead className="bg-gray-700 text-blue-50">
                   <tr className="border-black border-2 border-solid">
@@ -465,6 +466,10 @@ function HowItWorksPage() {
                   </tr>
                 </tbody>
               </table>
+
+              <p className="hidden sm:block bg-blue-50 p-2 text-gray-700 text-center border-black border-2 border-solid text-xl lg:text-2xl font-bold capitalize mb-2">
+                Breakout of the Raw Materials
+              </p>
             </div>
           </div>
         </div>
@@ -477,7 +482,7 @@ function HowItWorksPage() {
             Scale up process and something more ?
           </h1>
 
-          <div className="flex flex-col lg:flex-row lg:px-20 text-lg ">
+          <div className="flex flex-col lg:flex-row lg:px-5 2xl:px-20 text-lg ">
             <div className="flex flex-row lg:w-1/4 space-x-4 bg-blue-50 py-4 px-2">
               <LooksOneSharpIcon
                 className="my-auto text-gray-700"
