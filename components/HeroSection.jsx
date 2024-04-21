@@ -48,6 +48,7 @@ function HeroSection() {
         </h1>
 
         {/* Client Animation */}
+
         <div
           x-data="{}"
           x-init="
@@ -56,13 +57,20 @@ function HeroSection() {
                   ul.insertAdjacentHTML('afterend', ul.outerHTML);
                   ul.nextSibling.setAttribute('aria-hidden', 'true');
               })"
-          className="w-full space-x-10 my-10 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
+          className="w-full py-2 my-10 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
         >
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 [&_img]:max-w-none animate-infinite-scroll">
             {clients.map((client) => (
-              <li key={client.name}>
-                <Link href={client.web} className=" hover:shadow-lg">
-                  <Image src={client.img} width={150} height={150} />
+              <li
+                key={client.name}
+                className="hover:shadow-sm hover:shadow-gray-700 text-center"
+              >
+                <Link
+                  href={client.web}
+                  className="text-lg sm:text-3xl font-semibold"
+                >
+                  {/* <Image src={client.img} width={150} height={150} /> */}
+                  {client.name}
                 </Link>
               </li>
             ))}
@@ -72,9 +80,16 @@ function HeroSection() {
             aria-hidden="true"
           >
             {clients.map((client) => (
-              <li key={client.name}>
-                <Link href={client.web} className=" hover:shadow-lg">
-                  <Image src={client.img} width={150} height={150} />
+              <li
+                key={client.name}
+                className="hover:shadow-sm hover:shadow-gray-700 text-center"
+              >
+                <Link
+                  href={client.web}
+                  className="text-lg sm:text-3xl font-semibold"
+                >
+                  {/* <Image src={client.img} width={150} height={150} /> */}
+                  {client.name}
                 </Link>
               </li>
             ))}

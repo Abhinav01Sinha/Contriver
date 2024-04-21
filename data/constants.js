@@ -102,6 +102,16 @@ export const clients = [
     img: ACIC,
     web: "https://www.acic-bmu.in/",
   },
+  {
+    name: "7 Darters Pvt Ltd",
+    img: "",
+    web: "https://7darter.com/",
+  },
+  {
+    name: "ETS Private Ltd",
+    img: "",
+    web: "",
+  },
 ];
 
 export const workingSteps = [
