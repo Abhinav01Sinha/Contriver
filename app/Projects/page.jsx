@@ -20,17 +20,17 @@ function ProjectPage() {
     <div
       className={`${roboto.className} w-full bg-contriverBgRotatePhone bg-cover md:bg-contriverBgRotate bg-no-repeat bg-top`}
     >
-      <h1 className="text-3xl md:text-7xl font-bold text-gray-700 text-center pt-10 md:py-10 py-5 px-8 mx-auto uppercase animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+      <h1 className="text-3xl md:text-7xl font-bold text-gray-700 text-center pt-10 md:py-8 py-5 px-8 mx-auto uppercase animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
         What Have We Done?
       </h1>
       <h2 className="text-gray-700 font-bold text-xl md:text-3xl text-center md:pb-10 pb-5 px-8 lg:px-40 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
-        We have built autonomous :
+        We have built autonomous &rarr;
       </h2>
 
       {/* PC View */}
-      <div className="hidden md:flex flex-col w-5/6 lg:w-3/4 mx-auto lg:px-20 space-y-10 pb-10 ">
+      <div className="hidden md:flex flex-col w-5/6 lg:w-3/4 mx-auto space-y-10 pb-10 ">
         {about.map((item, ind) => (
-          <div key={ind} className="py-5 bg-blue-50 ">
+          <div key={ind} className="py-5 bg-blue-50 bg-opacity-80">
             <div className="flex flex-row py-4 px-5 justify-between">
               {/* Description */}
               <p className="sm:w-1/2 lg:w-7/12 lg:text-lg md:ml-6 animate-fade-up animate-once animate-duration-800 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
@@ -38,8 +38,8 @@ function ProjectPage() {
               </p>
 
               {/* Features */}
-              <div className="sm:w-5/12 lg:w-4/12 py-5 sm:my-auto pl-6 bg-gray-700 animate-fade-left animate-once animate-duration-1500 animate-ease-in-out animate-normal animate-fill-forwards">
-                <ul className="m-auto list-disc">
+              <div className="sm:w-5/12 lg:w-4/12 py-5 my-auto pl-6 bg-gray-700 rounded-xl animate-fade-left animate-once animate-duration-1500 animate-ease-in-out animate-normal animate-fill-forwards">
+                <ul className="m-auto list-disc pr-2 my-auto">
                   {item.description.map((desc, ind) => (
                     <li
                       key={ind}
@@ -61,13 +61,13 @@ function ProjectPage() {
           <div
             key={ind}
             className={`flex md:flex-row flex-col bg-${
-              ind % 2 === 0 ? "white" : "blue-400"
+              ind % 2 === 0 ? "blue-50" : "gray-50 bg-opacity-50"
             } py-10 md:space-x-20 md:px-20 px-10 animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards`}
           >
             <p className="md:w-4/6 text-lg  md:ml-10">{item.title}</p>
             <Separator
               className={`md:hidden bg-${
-                ind % 2 === 0 ? "gray-700" : "white"
+                ind % 2 === 0 ? "gray-700" : "blue-50"
               }  h-0.5 my-5`}
             />
 

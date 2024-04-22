@@ -10,11 +10,11 @@ function ContactUsPage() {
         CONTACT US
       </h1>
 
-      <div className="flex flex-col lg:flex-row bg-blue-50 animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
+      <div className="flex flex-col bg-opacity-50 lg:flex-row bg-blue-50 animate-fade-right animate-once animate-duration-1000 animate-delay-0 animate-ease-linear animate-normal animate-fill-forwards">
         <div className="flex flex-col lg:w-1/3 py-4 sm:py-10">
           <div className="flex flex-col justify-center items-center mb-4 sm:mb-10">
             <LocationOnIcon
-              className="text-gray-700"
+              className="text-gray-700 opacity-90"
               style={{ fontSize: "5rem" }}
             />
             <p className="text-gray-700 font-bold text-2xl sm:text-5xl lg:text-4xl">
@@ -27,11 +27,14 @@ function ContactUsPage() {
           </p>
         </div>
         {/* Separator */}
-        <div className="hidden sm:inline-block h-auto w-0.5 self-stretch bg-gray-700"></div>
+        <div className="hidden sm:inline-block h-auto w-0.5 self-stretch bg-gray-900"></div>
 
         <div className="flex flex-col lg:w-1/3 py-4 sm:py-10">
           <div className="flex flex-col justify-center items-center mb-4 sm:mb-10">
-            <MailIcon className="text-gray-700" style={{ fontSize: "5rem" }} />
+            <MailIcon
+              className="text-gray-700 opacity-90"
+              style={{ fontSize: "5rem" }}
+            />
             <p className="text-gray-700 font-bold text-2xl sm:text-5xl lg:text-4xl">
               E-MAIL
             </p>
@@ -42,12 +45,12 @@ function ContactUsPage() {
           </p>
         </div>
 
-        <div className="hidden sm:inline-block h-auto w-0.5 self-stretch bg-gray-700"></div>
+        <div className="hidden sm:inline-block h-auto w-0.5 self-stretch bg-gray-900"></div>
         {/* Separator */}
         <div className="flex flex-col lg:w-1/3 py-4 sm:py-10">
           <div className="flex flex-col justify-center items-center mb-4 sm:mb-10">
             <LocalPhoneIcon
-              className="text-gray-700"
+              className="text-gray-700 opacity-90"
               style={{ fontSize: "5rem" }}
             />
             <p className="text-gray-700 font-bold text-2xl sm:text-5xl lg:text-4xl">

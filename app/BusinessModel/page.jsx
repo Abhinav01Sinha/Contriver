@@ -78,7 +78,7 @@ function BusnessModelPage() {
       </div>
 
       {/* MARKET Opportunites  */}
-      <div className="flex sm:flex-row flex-col bg-blue-50 sm:px-6 sm:py-10 pb-10">
+      <div className="flex md:flex-row flex-col bg-blue-50 sm:px-6 sm:py-10 pb-10">
         {/* First Market */}
         <div className="flex flex-col mx-auto md:w-7/12 mb-10 sm:mb-2">
           <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-3xl lg:text-4xl text-xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
@@ -101,7 +101,7 @@ function BusnessModelPage() {
           <p className="text-center sm:text-gray-700 text-blue-50 font-bold sm:text-3xl lg:text-4xl text-2xl py-3 sm:my-5 bg-gray-700 sm:bg-blue-50">
             Second Market Opportunity
           </p>
-          <div className="flex flex-col space-y-11 px-8 font-semibold mt-2 sm:mt-10 lg:mt-2">
+          <div className="flex flex-col space-y-11 px-8 font-semibold mt-2 ">
             {secondMarket.map((pt, ind) => (
               <div
                 key={ind}
