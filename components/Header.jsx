@@ -8,7 +8,7 @@ function Header() {
     <div className="w-full bg-blue-50 flex flex-col">
       <Link href={"/"} className="flex justify-end">
         <Image
-          src={"/Logo.png"}
+          src={"/Logo.webp"}
           alt="logo"
           width={1600}
           height={200}

@@ -18,12 +18,12 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        contriverBg: "url('/bg.png')",
-        contriverBgFlip: "url('/bgFlip.png')",
-        contriverBgRotate: "url('/bgRotate.png')",
-        contriverBgRotatePhone: "url('/bgRotatePhone.png')",
-        DroneBg: "url('/DroneBg.png')",
-        DroneBgPhone: "url('/DroneBgPhone.png')",
+        contriverBg: "url('/bg.webp')",
+        contriverBgFlip: "url('/bgFlip.webp')",
+        contriverBgRotate: "url('/bgRotate.webp')",
+        contriverBgRotatePhone: "url('/bgRotatePhone.webp')",
+        DroneBg: "url('/DroneBg.webp')",
+        DroneBgPhone: "url('/DroneBgPhone.webp')",
       },
       colors: {
         transparent: "transparent",
