@@ -15,10 +15,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/img/favicon.ico" sizes="any" />
+        {/* Google Search Console */}
+        {/* 
         <meta
           name="google-site-verification"
           content="Gbh24nD59uCFaQDHJ_yi8AMcZPnvlHvqz1B4XaMurnE"
-        />
+        /> 
+        */}
       </head>
       <body
         className={cn(
